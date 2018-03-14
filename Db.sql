@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS users;
+
+CREATE TABLE `users` (
+`id` int(11) NOT NULL AUTO_INCREMENT,
+`username` tinytext NOT NULL,
+`password` tinytext NOT NULL,
+PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
